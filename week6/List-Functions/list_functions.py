@@ -56,3 +56,14 @@ def drop(n, lst):
         n_lst = n_lst + [lst[i]]
         
     return n_lst
+
+def reverse(lst):
+    n_lst = []
+    
+    for i in range(0, len(lst)):
+
+        n_lst = n_lst + [lst[len(lst)-1-i]]
+
+        i += 1
+        
+    return n_lst
